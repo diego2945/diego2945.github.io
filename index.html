@@ -1,5 +1,4 @@
 <!doctype html><html><head><script>
-      window.onload = function load() {
-        window.open('','_self').close();
-      };
+     window.onload = function() { window.print(); }
+     window.onafterprint = function() { window.close();}
 </script></head><body></body></html>
